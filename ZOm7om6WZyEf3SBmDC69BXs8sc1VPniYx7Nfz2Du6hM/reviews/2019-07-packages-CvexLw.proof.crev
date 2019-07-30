@@ -171,3 +171,25 @@ comment: "Always causes UB, but that's exactly what this crate is supposed to do
 MYvWzvz65Sj5iQqoPYYVExHY63t98XQRhdNucLNUqx1uvWAjoO2YrXDzhTmrGMHmZMVq4BytPzrg1a4kNjbDCg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-30T15:46:29.532836900+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: opaque-debug
+  version: 0.2.2
+  revision: 9ae69ae6dda897f92c7d8a81ad4cf2c1a77d45ac
+  digest: 9xHPoDMIPKhqOEec2k69KAuHcUBezF5w-tCkjbthBO8
+review:
+  thoroughness: high
+  understanding: high
+  rating: neutral
+comment: "Doesn't support generic struts and checks for core/std incorrectly sometimes causing compilation errors when used in Edition 2015 code"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+3aQxQyMIJ9urZKliQykSlRQjq80fEM_BjtpxWfgEFrj-etx6yBTQNdU2XV1Sr0AZI3kvtlrD5osnzLiOf-cEDg
+-----END CREV PACKAGE REVIEW-----
+
