@@ -127,3 +127,25 @@ comment: copy_over and prepend functions cause UB
 jch_qADXAQvhHPg00OkL1GVzemtotBKzQv7JgQuJkuf5vOOSVCTYY8r1ZLlAfbekkecJnqwgsDLpPk0KhvyBCw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-30T15:19:22.003469263+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: diesel_migrations
+  version: 1.4.0
+  revision: 00aa7b831222a95b243fef68be9cfb7dbe156c5f
+  digest: U1XYuPmXGPLGJEJIxxS6dSarZ02kk4qr1eiqAgV8P7Y
+review:
+  thoroughness: low
+  understanding: high
+  rating: strong
+comment: "Internally uses migrations_internals and migrations_macros, the crate itself doesn't do much."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+NngqkSUIhPz_y2BQWh75LwEvuFSsggiKo3-qe41cTOBPpuzYU9PZ5yAw3uIorYExKq1jIn7RIZfnVuEMuZYuBg
+-----END CREV PACKAGE REVIEW-----
+
