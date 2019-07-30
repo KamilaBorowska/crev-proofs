@@ -63,3 +63,25 @@ comment: "Does exactly what it should do, but it's based on Unicode 9.0, when at
 j35ympSA3RFxrS70jhUVovNu0uBCf36gjfiYvXDuep7BMpyBbGGq1TQLYYlRphyyhJ81nfaCeG5v7VAz1Q71Dg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-30T11:33:49.712554336+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: enum-map-derive
+  version: 0.4.1
+  revision: 1aa536598358dd0d5e375482e8d0a6063326dd2b
+  digest: Lz73WvWP7JbwXGOhVs8JbkrmAs-1L8yNPy8-mIF6RkY
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: This is my crate
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+fNun8n8yfO6UU0bdRVzwwCUR88NT6hDGwyU30Y6nyv-lpQ5jiHsWmp0jLULGG0ExXgF_rvQhg7MCEL3QmlnxDQ
+-----END CREV PACKAGE REVIEW-----
+
