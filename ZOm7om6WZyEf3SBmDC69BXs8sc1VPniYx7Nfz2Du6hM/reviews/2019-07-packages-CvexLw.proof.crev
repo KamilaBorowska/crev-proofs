@@ -1,0 +1,22 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-30T11:10:21.687543578+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: serde-feature-hack
+  version: 0.2.0
+  revision: 74025986eef4d921166d38f90945bc44795dbbe1
+  digest: Z1dI3Q-LfSOxhU4cgVxR3RUfK1FXbuQOswgPTZFzKxI
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: Re-export of serde to workaround crates being implicit features
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+mbs2g9UXRx3B7xFA6uLdyn3D077-x6ovbAMisXXlzkvFsa0bl0ht1GeMGMzobQHmZkYvwSA0R6rYfS8m-OpzAg
+-----END CREV PACKAGE REVIEW-----
+
