@@ -85,3 +85,24 @@ comment: This is my crate
 fNun8n8yfO6UU0bdRVzwwCUR88NT6hDGwyU30Y6nyv-lpQ5jiHsWmp0jLULGG0ExXgF_rvQhg7MCEL3QmlnxDQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-30T13:07:40.893229328+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: string_cache_shared
+  version: 0.3.0
+  digest: EnvCYCtr-Sk85XM_pJd9cd5ya-fy5_t7wR_SVjyUdpQ
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+comment: "Constants to be used by other crate, the values seem correct. Worth noting that changing values in this crate will cause unsafety unless a new release gets made."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+ozElqAwzpQG1E6OADcd0krZ7fLoaXSUPHARh0_P8SH3yJy6vrhgI7QPXrgpti2BjEnAP6_dC7jgXHpKYJiJ6Dw
+-----END CREV PACKAGE REVIEW-----
+
