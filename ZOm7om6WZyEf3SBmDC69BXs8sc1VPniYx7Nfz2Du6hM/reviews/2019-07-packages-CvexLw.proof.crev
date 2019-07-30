@@ -42,3 +42,24 @@ comment: "I'm the author of this crate"
 Q5sUGWfCEMausU6c08ZXiG_OCHbU80x56kTfjO2JwISM0aU435aft-4U0nfjlK-tOFTrBLFsWPQwntOQgKlMAg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-30T11:24:43.587363273+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: unicode-xid
+  version: 0.1.0
+  digest: B2g1ieEP_EjEd0jDxIqpBZQonUJPUoXAVelCOpC59yY
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+comment: "Does exactly what it should do, but it's based on Unicode 9.0, when at the time of the review the newest version was 12.1"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+j35ympSA3RFxrS70jhUVovNu0uBCf36gjfiYvXDuep7BMpyBbGGq1TQLYYlRphyyhJ81nfaCeG5v7VAz1Q71Dg
+-----END CREV PACKAGE REVIEW-----
+
