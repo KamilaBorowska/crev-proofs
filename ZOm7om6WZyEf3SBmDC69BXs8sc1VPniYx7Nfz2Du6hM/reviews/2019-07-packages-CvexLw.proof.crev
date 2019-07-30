@@ -20,3 +20,25 @@ comment: Re-export of serde to workaround crates being implicit features
 mbs2g9UXRx3B7xFA6uLdyn3D077-x6ovbAMisXXlzkvFsa0bl0ht1GeMGMzobQHmZkYvwSA0R6rYfS8m-OpzAg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-30T11:15:14.483232242+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: enum-map
+  version: 0.5.0
+  revision: d028f57626a359a2ab8734a420a2d13bbee162d5
+  digest: VFte08HS2e8iPYqfaF6xTyFnfJVeJI_My39Vumz-LdU
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: "I'm the author of this crate"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+Q5sUGWfCEMausU6c08ZXiG_OCHbU80x56kTfjO2JwISM0aU435aft-4U0nfjlK-tOFTrBLFsWPQwntOQgKlMAg
+-----END CREV PACKAGE REVIEW-----
+
