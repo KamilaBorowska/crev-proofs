@@ -106,3 +106,24 @@ comment: "Constants to be used by other crate, the values seem correct. Worth no
 ozElqAwzpQG1E6OADcd0krZ7fLoaXSUPHARh0_P8SH3yJy6vrhgI7QPXrgpti2BjEnAP6_dC7jgXHpKYJiJ6Dw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-30T13:48:05.282560894+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: safemem
+  version: 0.3.0
+  digest: NFyzbZwiSEV99bcLR6EEnqw-uFrwAsPswRS-kn4AH8A
+review:
+  thoroughness: high
+  understanding: high
+  rating: negative
+comment: copy_over and prepend functions cause UB
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+jch_qADXAQvhHPg00OkL1GVzemtotBKzQv7JgQuJkuf5vOOSVCTYY8r1ZLlAfbekkecJnqwgsDLpPk0KhvyBCw
+-----END CREV PACKAGE REVIEW-----
+
