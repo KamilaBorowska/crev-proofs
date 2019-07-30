@@ -149,3 +149,25 @@ comment: "Internally uses migrations_internals and migrations_macros, the crate 
 NngqkSUIhPz_y2BQWh75LwEvuFSsggiKo3-qe41cTOBPpuzYU9PZ5yAw3uIorYExKq1jIn7RIZfnVuEMuZYuBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-30T15:24:23.261078712+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: new_debug_unreachable
+  version: 1.0.3
+  revision: e374f6990882871d62ddcd1d9964b26ac50c5c7e
+  digest: YkkcIpaxQwtkuzojmXeqffth6X71hxE6YKaQUWE4Zvo
+review:
+  thoroughness: low
+  understanding: high
+  rating: positive
+comment: "Always causes UB, but that's exactly what this crate is supposed to do and it properly requires unsafe."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+MYvWzvz65Sj5iQqoPYYVExHY63t98XQRhdNucLNUqx1uvWAjoO2YrXDzhTmrGMHmZMVq4BytPzrg1a4kNjbDCg
+-----END CREV PACKAGE REVIEW-----
+
