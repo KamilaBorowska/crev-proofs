@@ -375,3 +375,29 @@ review:
 cw_JroyLvqJhrudwL-CKL1I-csZxMnSRLnZen4IKodb0nvG1D0Nulg0m77W56v1Za8o7tAD9e7MdbQwAjRmzCg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-31T10:23:58.328888206+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: safemem
+  version: 0.3.1
+  revision: 485a39bfe8fa26cd020df97f744a628138b6e3d4
+  digest: Z5iUQGkupG_XEqmmisxK8ApLhF9CkW1gHBHDfCxhb1M
+package-diff-base:
+  source: "https://crates.io"
+  name: safemem
+  version: 0.3.0
+  digest: NFyzbZwiSEV99bcLR6EEnqw-uFrwAsPswRS-kn4AH8A
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+TS9LiKdzzCI774kdO-DzaHojdNNsDjJiDLoDlfV_B1X6flk0q8WmTSxzQWHCcWPIrUHu0iNHjQpJKjTMRmdmCg
+-----END CREV PACKAGE REVIEW-----
+
