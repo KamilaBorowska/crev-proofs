@@ -15,3 +15,22 @@ comment: crev author
 cOZTLSHFvnpL3Vrt3DsyZrt87GvRkH-jMMmIrRLgB8I2X3B3xMmVPTuSRYMHbjcMug8xEGXNtv5q_S1ldStdBQ
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-07-31T09:54:39.700344699+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+ids:
+  - id-type: crev
+    id: Qf4cHJBEoho61fd5zoeweyrFCIZ7Pb5X5ggc5iw4B50
+    url: "https://github.com/kornelski/crev-proofs"
+  - id-type: crev
+    id: X98FCpyv5I7z-xv4u-xMWLsFgb_Y0cG7p5xNFHSjbLA
+    url: "https://github.com/kornelski/crev-proofs"
+trust: medium
+-----BEGIN CREV TRUST SIGNATURE-----
+Iq1r6t2lEaZ20_-fA4LIVfPz24RVoc51wCFmWm0XUuHGmcYqhm3AAB7WCU_Ryyag5dJqEEHTqchwfMWAGV2eCA
+-----END CREV TRUST-----
+
