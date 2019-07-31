@@ -242,3 +242,24 @@ comment: copy_over and prepend functions cause UB
 EMi0qchJ0g-pAlv-s5_7rAZRe219iwOMrWUuCzTHLA7rGpMhUnB5e8H5-VZuuiiXzRY2xr8wTbVS3TMR5rfRAA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-31T09:04:20.200587475+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: safemem
+  version: 0.2.0
+  digest: "-PGgmfWhLs8cEtBPf8j6BKtu3l5IaS_M4eKrLPEZwbI"
+review:
+  thoroughness: high
+  understanding: high
+  rating: negative
+comment: copy_over and prepend functions cause UB
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+tSF5iFmpwtry3dtr1-k6bwbAEv3BcDRgPWRHs3AJxjpJA2ZJAlyA7n8QyAiNZeB5y1u4cwoBBuz89n37Vb3OBg
+-----END CREV PACKAGE REVIEW-----
+
