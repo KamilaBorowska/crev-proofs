@@ -448,3 +448,29 @@ review:
 TRRLzS5euT0IlaWPB0_tlXOuzj_yirVm0la74wFamSOMViIWQnZy_iv5CjR09kaViPqAVld7LyI3DVluP1CzAA
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-31T10:50:12.962396698+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: percent-encoding
+  version: 2.0.0
+  revision: f491cb442edab75be54ff5961af6458a474f1f9a
+  digest: Pbt2tppPjcZMkdkwfXEC2LW6w6rS7FiXguC-2s7husM
+package-diff-base:
+  source: "https://crates.io"
+  name: percent-encoding
+  version: 1.0.1
+  digest: pER7pV5bxlmSfhbortJ3hqjs-pgMCQF3CAZOnWeBKsU
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+wiFxWAaZ1VeuJs3AEHKVhY9TF1wRdJ4l80fNKgb5GwpYOjns77YLpgF-MU3yzphM5SoqBrp-E9_O1GVXp_hTDQ
+-----END CREV PACKAGE REVIEW-----
+
