@@ -193,3 +193,31 @@ comment: "Doesn't support generic struts and checks for core/std incorrectly som
 3aQxQyMIJ9urZKliQykSlRQjq80fEM_BjtpxWfgEFrj-etx6yBTQNdU2XV1Sr0AZI3kvtlrD5osnzLiOf-cEDg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-31T08:48:31.172892664+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: opaque-debug
+  version: 0.2.3
+  revision: 4a9addbcf6e494a187b77ca537849bdf6a1e8134
+  digest: 6PvBSwVB7Ade-q0oN9PvGkzlQhv4xdlGL-FEXCPt-D4
+package-diff-base:
+  source: "https://crates.io"
+  name: opaque-debug
+  version: 0.2.2
+  revision: 9ae69ae6dda897f92c7d8a81ad4cf2c1a77d45ac
+  digest: 9xHPoDMIPKhqOEec2k69KAuHcUBezF5w-tCkjbthBO8
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: "Doesn't support generic struts"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+vwqzu7ujBBx73Dwq-u43pmWAxkVZD5duUVrUPpOrZYZTtS3v7rVYaILdEOKNRs65xfD1EJlyBpAE98Obpr12Bg
+-----END CREV PACKAGE REVIEW-----
+
