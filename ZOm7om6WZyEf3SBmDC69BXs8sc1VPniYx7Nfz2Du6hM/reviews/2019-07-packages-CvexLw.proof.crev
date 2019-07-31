@@ -348,3 +348,30 @@ review:
 uK6qLbiUVbNVQupKj5KLNotGqBGVeDKdpK4uYGzOIU4ckKZ9-X26gIG0vTUgrXZiXd4FsiMUhiCu_vFUwCu7BQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-31T10:18:39.961441369+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ammonia
+  version: 3.0.0
+  revision: f29738dc10cb14b8eacac18296e14455499ac35c
+  digest: r3vFDrNlFdpJzMxxIlD2jikYCBEHvBjjqlxlC_2UsAE
+package-diff-base:
+  source: "https://crates.io"
+  name: ammonia
+  version: 2.1.0
+  revision: bb7d7be9b28f4c955555b958be12b887350347b0
+  digest: b6zco479vX03ehRjxv7yBre3fM6afypAp0iXnofqXHQ
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+cw_JroyLvqJhrudwL-CKL1I-csZxMnSRLnZen4IKodb0nvG1D0Nulg0m77W56v1Za8o7tAD9e7MdbQwAjRmzCg
+-----END CREV PACKAGE REVIEW-----
+
