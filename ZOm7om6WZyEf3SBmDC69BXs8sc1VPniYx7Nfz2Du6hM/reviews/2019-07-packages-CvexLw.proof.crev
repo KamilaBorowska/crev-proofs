@@ -284,3 +284,25 @@ comment: "Unlike unicase 2 it doesn't use case folding, so 'ß' would be conside
 wZAcR9JRnXeGN8pNA_Gt9gASDkGYXpb66s1hUoiuTgZJZXni4k0GaA4Rnsm_OLo8YZaWcr9h6DnJOCM3VhGVBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-31T09:31:17.381972273+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: md5
+  version: 0.6.1
+  revision: 819eb007d1326a2f145cef8f2c519dfa017b6a71
+  digest: T6kQhICVNSppeY9U6AWPgzHiBKqWxLJHEFyIESwQWi8
+review:
+  thoroughness: low
+  understanding: none
+  rating: positive
+comment: "There is no unsafe usage, there are some tests, probably correct. Correctness of cryptography was not checked."
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+PYa__wjPfbtifyZdPk8c0JcJma3faC5nQ8XDqyaYNL0hpyndIK45qSLOfIbroMKf7ewMTFbVgV1JbmS9_vpFCQ
+-----END CREV PACKAGE REVIEW-----
+
