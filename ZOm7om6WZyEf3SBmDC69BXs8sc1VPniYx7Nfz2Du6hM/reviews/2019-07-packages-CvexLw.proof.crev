@@ -427,3 +427,24 @@ review:
 K2g28EFtkYyXXKvsF58R4xKG3Xilq5tKEWyBol2eMfzAM3QGiRF4Yi9dz-mrZ6JSqcb2vrcqZkQg2GQjcY0xAQ
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-31T10:45:56.528629556+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rand_os
+  version: 0.1.3
+  revision: 487e3f00b9a3268cf8a798bfec0feabe7b93cb35
+  digest: S3m9biG9bk0GKNiU-NxXqwKFKNMvQnGLw6S2wNO6jm8
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+TRRLzS5euT0IlaWPB0_tlXOuzj_yirVm0la74wFamSOMViIWQnZy_iv5CjR09kaViPqAVld7LyI3DVluP1CzAA
+-----END CREV PACKAGE REVIEW-----
+
