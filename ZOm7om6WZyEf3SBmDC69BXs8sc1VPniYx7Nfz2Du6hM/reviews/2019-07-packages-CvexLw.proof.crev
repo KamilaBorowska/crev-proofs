@@ -263,3 +263,24 @@ comment: copy_over and prepend functions cause UB
 tSF5iFmpwtry3dtr1-k6bwbAEv3BcDRgPWRHs3AJxjpJA2ZJAlyA7n8QyAiNZeB5y1u4cwoBBuz89n37Vb3OBg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-07-31T09:18:41.293361708+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: unicase
+  version: 1.4.2
+  digest: "-M1-aEHze18m2tZLlX0zZET31bEejEYifr0fegU2YlY"
+review:
+  thoroughness: low
+  understanding: high
+  rating: neutral
+comment: "Unlike unicase 2 it doesn't use case folding, so 'ß' would be considered different to 'SS'"
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+wZAcR9JRnXeGN8pNA_Gt9gASDkGYXpb66s1hUoiuTgZJZXni4k0GaA4Rnsm_OLo8YZaWcr9h6DnJOCM3VhGVBw
+-----END CREV PACKAGE REVIEW-----
+
