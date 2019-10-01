@@ -49,3 +49,31 @@ comment: |
 chUo9s9WXsC956R-Mkr3h5v9qJGukrmwoT16oKHfOPrTMZaGVhfyic3OvupehI5-5jAeWxc7Zgzt_gP_DTq7Dg
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-01T20:55:07.350880087+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: mime_guess
+  version: 2.0.1
+  revision: 3e62c99122069cfec1fa3f7c263b0943f5016b6b
+  digest: nl6lWvG2QJWmvUgChco-i9h-OBR-jW8jkZt1mVMh-oo
+package-diff-base:
+  source: "https://crates.io"
+  name: mime_guess
+  version: 2.0.0-alpha.6
+  digest: aErBQPACxfcONDbZV9ahSwgJDb1jZldDokqsnPvg-LQ
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |
+  
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+LpO28rUv2-2ZvYpOv46NJW_sc6PX0R8Cyj--f15WXpk3BERtrV4M_oJQPmoI3tc05cEeGBiY8Z61oYw0QIVWDQ
+-----END CREV PACKAGE REVIEW-----
+
