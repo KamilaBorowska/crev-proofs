@@ -1,0 +1,28 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-01T20:38:21.682979938+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: getrandom
+  version: 0.1.12
+  revision: 5cfa668403345340966ba597732387bfddff5b3d
+  digest: opDBncn0Dw9hXujf529Jsx99Om3JixUu7BpZR0pd_Eo
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+comment: |
+  When programming for HermitCore, L4Re, UEFI or SGX on x86_64, this crate
+  will use rdrand as source of randomness, which may have a backdoor.
+  This looks fine on other platforms, using built-in operating system
+  CSPRNG generation functions, assuming the operating system vendors didn't
+  screw up those functions - and if they did, you have a problem, whatever
+  or not this crate is secure.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+MKXm4p4sRqU-50yoVN8GtTfos4pSGSn11i_tBNWJdoH5GhVDxanANQGWLEJXYxxAlRVlE1DNM-3JTnvTxa0ABw
+-----END CREV PACKAGE REVIEW-----
+
