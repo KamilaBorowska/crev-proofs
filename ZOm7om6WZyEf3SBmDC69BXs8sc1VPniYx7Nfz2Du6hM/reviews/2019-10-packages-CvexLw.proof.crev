@@ -1,0 +1,23 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-10-02T16:28:04.800935777+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: stable_deref_trait
+  version: 1.1.1
+  digest: ep7u1bTV9N6YjHMGRlUV7acDJGe4DiIPB3rJPWJSXHw
+review:
+  thoroughness: medium
+  understanding: high
+  rating: strong
+comment: |
+  All implementations are correct, trait requirements seem fine and usable
+  for crates like rental (unlike std::pin::Pin).
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+FS7mOoMiq03ylZlZ7Dvu-dN0EgA1uvqMZX4I1u2aQPDcI7M1ADEImn_Z2ZOFTJseQWvZXPD_0tUVlZggKP2nBA
+-----END CREV PACKAGE REVIEW-----
+
