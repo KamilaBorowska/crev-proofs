@@ -1,0 +1,25 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-26T18:15:31.396836754+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: matches
+  version: 0.1.9
+  digest: aUbHmq2YcwV8i6N5M6OkDevL80TDshhfZjNWjurpOXc
+review:
+  thoroughness: low
+  understanding: high
+  rating: strong
+comment: |-
+  Does exactly what it's supposed to. For new projects it may make sense to
+  use matches! macro from standard library (https://doc.rust-lang.org/std/macro.matches.html),
+  but it's fine to use dependencies that use `matches` crate.
+----- SIGN CREV PROOF -----
+F0-hycv4wwk0tN3-OfuM90eHeCGdc1b0V806Q-TxpZ4dNGfY7gjiRys_TE5Pl6UtMiyTB0CYDWJl2JTI8g2AAQ
+----- END CREV PROOF -----
+
