@@ -1,0 +1,28 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-02-12T00:53:16.450118701+01:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: median_three_quicksort
+  version: 0.0.1
+  digest: uPzjAZlfKZa-wTvYlSgUwNBo01UeOjqu-sKCEq-MFto
+review:
+  thoroughness: low
+  understanding: medium
+  rating: negative
+comment: |-
+  crater has the following line in its code
+  
+      median_three_quicksort = { skip-tests = true } # sorting library that sometimes doesn't sort (WTF)
+  
+  I think that says enough. This crate doesn't work as it should - there
+  is probably some bug in an implementation.
+----- SIGN CREV PROOF -----
+NYl7oZtzaPZyYTbgjSYrm6cT0FE1xkXD51MmdENIx3wYuLZ0T3bF7xke0sL0GJ4qv5i1eVP9IpCyzYdkFIvaCA
+----- END CREV PROOF -----
+
