@@ -1,0 +1,30 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2022-04-08T23:50:24.720996044+02:00"
+from:
+  id-type: crev
+  id: ZOm7om6WZyEf3SBmDC69BXs8sc1VPniYx7Nfz2Du6hM
+  url: "https://gitlab.com/KonradBorowski/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: maligned
+  version: 0.2.1
+  revision: f07396e9e7bb724f8a341dc1a12da259de189d8c
+  digest: nyXdVH5Hv1BRL1t75DLeH-CRmwKWNHGHihGFlgiElkk
+review:
+  thoroughness: none
+  understanding: none
+  rating: negative
+flags:
+  unmaintained: true
+comment: |-
+  Functions whose name starts with `align_first` are unsound as they create
+  allocations whose alignment doesn't match the alignment of an allocation.
+  This can cause hard to debug issues when using alignment aware allocator.
+  
+  See https://github.com/tylerhawkes/maligned/issues/5
+----- SIGN CREV PROOF -----
+9zwLzZcCWx2IreyxUVQWXE31e00MLC9QseGOal_tWXfyRDg_nAesdguPWdR0QKG4CCzp-cwNeX7Im3VL-Nm0BQ
+----- END CREV PROOF -----
+
